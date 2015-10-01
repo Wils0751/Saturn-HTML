@@ -1,0 +1,105 @@
+@charset "utf-8";
+/*****************************
+Colours
+main background: #222;
+content background:#444;
+footer background: #333;
+borders on header and main: #666;
+main text: #d4d4d4;
+header text: #eee;
+footer text: #999;
+anchor text: gold;
+anchor hover: #fff;
+text shadows - #000 (bottom right) and gold (top left)
+
+Fonts
+'Helvetica Neue', Calibri, Verdana, sans-serif;
+
+Images
+http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
+******************************/
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+html, body{
+    font-size: 3vh; /* default font-size = 1.0rem */
+    background-color: #444;
+ 
+}
+h1{
+    padding-top: 90px;
+    font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
+    border: 2px solid #666;
+    background-image: url("http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg");
+    background-repeat:no-repeat;
+    height: 300px;
+    width: 900px;         
+}
+h3{
+   font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
+    color: white;
+     padding-bottom: 40px;
+}
+p{
+    font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
+}
+nav a, nav a:link, nav a:visited{
+    color: gold;
+    text-decoration: none;
+     
+}
+nav a:hover, a:active{
+    color: #fff;
+}
+nav ul{
+    font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
+    border: 6px solid grey;
+     
+}
+nav li{
+    text-decoration: none;
+    font-size: 23px;
+    display: inline-block; 
+    padding: 5px;
+    
+}
+#wrapper{
+    width: 85%; 
+    margin: 0 auto;
+    max-width: 900px;
+
+}
+#masthead{
+    
+    text-shadow: -2px -2px 2px gold, 2px 2px 2px #000;
+    color: #eee;
+    font-size: 45px;
+    text-align: center;    
+}
+#main{
+    background-color: #444;
+    color: #d4d4d4;
+    border: 2px solid #666;
+    padding-top:40px;
+   
+    
+   
+}
+#footer{
+    background-color: #333;
+    color: #999;
+}
+#footer p{
+    font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
+    font-color: #999;
+}
+#footer a{
+    font-family:Helvetica Neue, Calibri, Verdana, sans-serif;
+    font-color: gold;
+    color: gold;
+   
+}
