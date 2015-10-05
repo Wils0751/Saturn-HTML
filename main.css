@@ -22,7 +22,7 @@ http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
-    background-color: #222;
+  
     
     
 }
@@ -50,7 +50,7 @@ p{
     font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
 }
 nav a, nav a:link, nav a:visited{
-    color: goldenrod;
+    color: gold;
     text-decoration: none;
      
 }
