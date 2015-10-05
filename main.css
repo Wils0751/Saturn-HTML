@@ -22,6 +22,7 @@ http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
+    background-color: #222;
     
     
 }
@@ -36,19 +37,20 @@ h1{
     border: 2px solid #666;
     background-image: url("http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg");
     background-repeat:no-repeat;
+    background-position: top center;
     height: 300px;
     width: 900px;         
 }
 h3{
    font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
-    color: white;
+    color: #eee;
      padding-bottom: 40px;
 }
 p{
     font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
 }
 nav a, nav a:link, nav a:visited{
-    color: gold;
+    color: goldenrod;
     text-decoration: none;
      
 }
@@ -56,6 +58,7 @@ nav a:hover, a:active{
     color: #fff;
 }
 nav ul{
+    list-style-type: none;
     font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
     border: 6px solid grey;
      
